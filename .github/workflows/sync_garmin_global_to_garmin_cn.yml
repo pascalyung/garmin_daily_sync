@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     #  每天早上9点04分检查一次
-    - cron: "54 23 * * *"
+    - cron: "53 23 * * *"
 
 env:
   # please change to your own config.
